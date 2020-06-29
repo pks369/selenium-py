@@ -1,0 +1,121 @@
+1592404861535	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Dell\\AppData\\Local\\Temp\\rust_mozprofile4Dx98r"
+1592404862326	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1592404862557	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1592404862557	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1592404862558	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1592404862558	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592404866237	Marionette	INFO	Listening on port 63643
+1592404866257	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592404887003	Marionette	INFO	Stopped listening on port 63643
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1592472939953	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Dell\\AppData\\Local\\Temp\\rust_mozprofilevNtKIp"
+1592472945419	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1592472945723	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1592472945723	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1592472945723	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1592472945723	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592472958647	Marionette	INFO	Listening on port 58641
+1592472958974	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+1592473122558	addons.manager	WARN	InstallListener threw exception when calling onDownloadCancelled: TypeError: this.webProgress is null(chrome://global/content/elements/browser-custom-element.js:1075:7) JS Stack trace: removeProgressListener@browser-custom-element.js:1075:7
+unregister@AddonManager.jsm:314:20
+onDownloadCancelled@AddonManager.jsm:352:10
+callInstallListeners@AddonManager.jsm:1654:33
+callInstallListeners@AddonManager.jsm:3601:54
+_callInstallListeners@XPIInstall.jsm:1983:32
+cancel@XPIInstall.jsm:1386:14
+cancel@XPIInstall.jsm:2184:13
+cancel@XPIInstall.jsm:2693:22
+cancelInstall@AddonManager.jsm:323:20
+observe@AddonManager.jsm:336:10
+1592473128926	addons.manager	WARN	InstallListener threw exception when calling onDownloadCancelled: TypeError: this.webProgress is null(chrome://global/content/elements/browser-custom-element.js:1075:7) JS Stack trace: removeProgressListener@browser-custom-element.js:1075:7
+unregister@AddonManager.jsm:314:20
+onDownloadCancelled@AddonManager.jsm:352:10
+callInstallListeners@AddonManager.jsm:1654:33
+callInstallListeners@AddonManager.jsm:3601:54
+_callInstallListeners@XPIInstall.jsm:1983:32
+cancel@XPIInstall.jsm:1386:14
+cancel@XPIInstall.jsm:2184:13
+cancel@XPIInstall.jsm:2693:22
+cancelInstall@AddonManager.jsm:323:20
+observe@AddonManager.jsm:336:10
+1592473141611	addons.manager	WARN	InstallListener threw exception when calling onDownloadCancelled: TypeError: this.webProgress is null(chrome://global/content/elements/browser-custom-element.js:1075:7) JS Stack trace: removeProgressListener@browser-custom-element.js:1075:7
+unregister@AddonManager.jsm:314:20
+onDownloadCancelled@AddonManager.jsm:352:10
+callInstallListeners@AddonManager.jsm:1654:33
+callInstallListeners@AddonManager.jsm:3601:54
+_callInstallListeners@XPIInstall.jsm:1983:32
+cancel@XPIInstall.jsm:1386:14
+cancel@XPIInstall.jsm:2184:13
+cancel@XPIInstall.jsm:2693:22
+cancelInstall@AddonManager.jsm:323:20
+observe@AddonManager.jsm:336:10
+1592473157237	addons.manager	WARN	InstallListener threw exception when calling onDownloadCancelled: TypeError: this.webProgress is null(chrome://global/content/elements/browser-custom-element.js:1075:7) JS Stack trace: removeProgressListener@browser-custom-element.js:1075:7
+unregister@AddonManager.jsm:314:20
+onDownloadCancelled@AddonManager.jsm:352:10
+callInstallListeners@AddonManager.jsm:1654:33
+callInstallListeners@AddonManager.jsm:3601:54
+_callInstallListeners@XPIInstall.jsm:1983:32
+cancel@XPIInstall.jsm:1386:14
+cancel@XPIInstall.jsm:2184:13
+cancel@XPIInstall.jsm:2693:22
+cancelInstall@AddonManager.jsm:323:20
+observe@AddonManager.jsm:336:10
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2299: TypeError: aBrowser is null
+1592473159128	Marionette	INFO	Stopped listening on port 58641
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1592544604586	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Dell\\AppData\\Local\\Temp\\rust_mozprofilePpv4Fq"
+1592544622661	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1592544623139	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1592544623140	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1592544623141	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1592544623141	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592544643629	Marionette	INFO	Listening on port 53644
+1592544643739	Marionette	WARN	TLS certificate errors will be ignored for this session
+1592565681092	Marionette	INFO	Stopped listening on port 53644
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 5167: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]
+1592567800064	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Dell\\AppData\\Local\\Temp\\rust_mozprofile1B6Chs"
+1592567804114	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1592567804210	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1592567804210	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1592567804210	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1592567804210	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592567810181	Marionette	INFO	Listening on port 51377
+1592567810621	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.olymptrade.com/lands/regform2p-01/js/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://static.olymptrade.com/lands/regform2p-01/js/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: resource:///modules/BrowserUsageTelemetry.jsm, line 303: TypeError: this._timeouts.remove is not a function
+JavaScript error: resource:///modules/BrowserUsageTelemetry.jsm, line 303: TypeError: this._timeouts.remove is not a function
+JavaScript error: resource:///modules/BrowserUsageTelemetry.jsm, line 303: TypeError: this._timeouts.remove is not a function
+JavaScript error: resource:///modules/BrowserUsageTelemetry.jsm, line 303: TypeError: this._timeouts.remove is not a function
+JavaScript error: resource:///modules/BrowserUsageTelemetry.jsm, line 303: TypeError: this._timeouts.remove is not a function
+JavaScript error: resource:///modules/BrowserUsageTelemetry.jsm, line 303: TypeError: this._timeouts.remove is not a function
+JavaScript error: resource:///modules/BrowserUsageTelemetry.jsm, line 303: TypeError: this._timeouts.remove is not a function
+JavaScript error: resource:///modules/BrowserUsageTelemetry.jsm, line 303: TypeError: this._timeouts.remove is not a function
+JavaScript error: resource:///modules/BrowserUsageTelemetry.jsm, line 303: TypeError: this._timeouts.remove is not a function
+JavaScript error: resource:///modules/BrowserUsageTelemetry.jsm, line 303: TypeError: this._timeouts.remove is not a function
+JavaScript error: resource:///modules/BrowserUsageTelemetry.jsm, line 303: TypeError: this._timeouts.remove is not a function
+JavaScript error: resource://gre/actors/BrowserElementParent.jsm, line 180: Error: permitUnload is already running for this tab.
+JavaScript error: resource://gre/actors/BrowserElementParent.jsm, line 180: Error: permitUnload is already running for this tab.
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+[Parent 24056, Gecko_IOThread] WARNING: file z:/task_1579288126/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+1592655084951	Marionette	INFO	Stopped listening on port 51377
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
