@@ -22,6 +22,5 @@ print(driver.current_url) #return url of the page    click
 #child url
 driver.find_element_by_xpath("//*[@id='Tabbed']/a/button").click() # inspect click & copy/ copy XPath
 time.sleep(5)
-
 # driver.close() # close parent url
 # driver.quit()  # quit all url like parent,child
