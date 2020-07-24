@@ -1,4 +1,5 @@
 '''
+@author: Pappu Kumar Singh
 Agenda:
 Run all the tests in a module/file: pytest -v -s  testLogin.py 
 Run all tests(from all modules)in a path: C:\Users\Dell\PycharmProjects\selenium\myPackage\
